@@ -9,7 +9,7 @@ readme = "README.md"
 repository = "https://github.com/ianaio/ianaio-file-hash"
 homepage = "https://rustwasm.iana.io/examples/ianaio-file-hash"
 documentation = "https://docs.rs/ianaio-file-hash/latest/ianaio-file-hash"
-categories = ["development-tools::profiling", "wasm", "file-hash", "example", "ianaio"]
+categories = ["wasm", "file-hash", "example", "ianaio"]
 publish = true
 rust-version = "1.80"
 
