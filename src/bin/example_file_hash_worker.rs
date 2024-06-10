@@ -1,5 +1,5 @@
-use example_file_hash::codec::TransferrableCodec;
-use example_file_hash::HashWorker;
+use ianaio_file_hash::codec::TransferrableCodec;
+use ianaio_file_hash::HashWorker;
 
 use ianaio_worker::Registrable;
 

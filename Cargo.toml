@@ -6,10 +6,10 @@ authors = ["Jaroslaw Cichon <dev.iana.io> IanaIO Rust and WebAssembly Working Gr
 edition = "2021"
 license-file = "LICENSE.txt"
 readme = "README.md"
-repository = "https://github.com/ianaio/ianaio-clock"
-homepage = "https://rustwasm.iana.io/example/ianaio-clock"
-documentation = "https://docs.rs/ianaio-clock/latest/ianaio-clock"
-categories = ["development-tools::profiling", "wasm", "clock", "example", "ianaio"]
+repository = "https://github.com/ianaio/ianaio-file-hash"
+homepage = "https://rustwasm.iana.io/example/ianaio-file-hash"
+documentation = "https://docs.rs/ianaio-clock/latest/ianaio-file-hash"
+categories = ["development-tools::profiling", "wasm", "file-hash", "example", "ianaio"]
 publish = true
 rust-version = "1.80"
 

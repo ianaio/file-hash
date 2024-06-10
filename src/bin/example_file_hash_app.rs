@@ -1,7 +1,7 @@
 use std::ops::Deref;
 
-use example_file_hash::codec::TransferrableCodec;
-use example_file_hash::{HashInput, HashWorker};
+use ianaio_file_hash::codec::TransferrableCodec;
+use ianaio_file_hash::{HashInput, HashWorker};
 use ianaio_worker::Spawnable;
 use web_sys::HtmlInputElement;
 use yew::prelude::*;
@@ -23,7 +23,7 @@ fn App() -> Html {
                         result.set(Some(o.hash));
                     })
                     .encoding::<TransferrableCodec>()
-                    .spawn_with_loader("/example_file_hash_worker_loader.js")
+                    .spawn_with_loader("/ianaio_file_hash_worker_loader.js")
             },
             (),
         )
