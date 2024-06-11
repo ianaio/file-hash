@@ -17,7 +17,7 @@ rust-version = "1.80"
 
 [dependencies]
 # We use the ianaio-worker directly to avoid dependency conflicts as Yew also uses ianaio.
-ianaio-worker = { path = "../../crates/worker" }
+ianaio-worker = { version = "0.1.1", path = "../../crates/worker" }
 serde = "1.0.163"
 web-sys = { version = "0.3.63", features = ["File", "Blob", "ReadableStream"] }
 wasm-bindgen-futures = { version = "0.4" }
