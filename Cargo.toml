@@ -1,7 +1,7 @@
 [package]
 name = "ianaio-file-hash"
 description = "This showcasing the IanaIO Workers custom codec and how to send transferrable types to workers."
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Jaroslaw Cichon <dev.iana.io> IanaIO Rust and WebAssembly Working Group"]
 edition = "2021"
 license-file = "LICENSE.txt"
